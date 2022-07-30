@@ -1,8 +1,17 @@
 import React from 'react'
+import FeedbackItem from './FeedbackItem'
 
-function FeedbackList() {
-  return (
-    <div>FeedbackList</div>
+function FeedbackList({ feedback }) {
+    console.log(feedback);
+    
+    if(!feedback || feedback.length===0) {
+        return <p>No feedback yet</p>
+    }
+
+    return (
+    <>
+        <FeedbackItem />
+    </>
   )
 }
 
