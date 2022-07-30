@@ -1,13 +1,15 @@
-import React from 'react'
-import '../styles/FeedbackItem.css'
+import { useState } from "react";
+
+import "../styles/FeedbackItem.css";
 
 function FeedbackItem() {
+  const [rating, setRating] = useState(7);
   return (
-    <div className='card'>
-        <div className="num-display">10</div>
-        <div className="text-display">Lorem ipsum dolor sit amet.</div>
+    <div className="card">
+      <div className="num-display">{rating}</div>
+      <div className="text-display">Lorem ipsum dolor sit amet.</div>
     </div>
-  )
+  );
 }
 
-export default FeedbackItem
+export default FeedbackItem;
