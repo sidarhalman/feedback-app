@@ -1,15 +1,18 @@
-.card{
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 5px;
+.card {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
 }
-.num-display{
-    width: 25px;
-    height: 25px;
-    background-color: tomato;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    border-radius: 50%;
+.num-display {
+  width: 25px;
+  height: 25px;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 50%;
+}
+.text-display {
+  margin-left: 10px;
 }
